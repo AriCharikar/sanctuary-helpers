@@ -1,0 +1,106 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+/* CSS variables  */
+
+$light-green-bg: #E0FDDF;
+$yellow-em-bg: #F8FB05;
+$submit-button: #065635;
+$kumar-big: 'Kumar One Outline';
+$kumar-small: 'Kumar One';
+$lato: 'Lato';
+
+
+h1 {
+    font-size: 5rem;
+    font-family: $kumar-big, serif, sans-serif;
+    line-height: 4.8rem;
+    text-transform: uppercase;
+}
+
+h2, h3, button {
+    font-family: $kumar-small, serif, sans-serif;
+    text-transform: uppercase;
+}
+
+button:hover {
+    color: #F5F5F5;
+    background-color: #151514;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+a, p {
+    font-family: $lato;
+    font-size: 1.5rem;
+}
+
+a {
+    font-weight: bold;
+}
+
+a:hover {
+    border-bottom: 4px solid $yellow-em-bg;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+h6 {
+    font-size: 1.4rem;
+}
+
+p {
+    text-transform: lowercase;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+
+button {
+    background-color: $submit-button;
+    color: #F5F5F5;
+    border: none;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+h2, p, button {
+    margin: 10px;
+}
+
+form {
+    display: inline;
+}
+
+textarea {
+    display: block;
+    width: 65%;
+    padding-left: 15px;
+}
+
+input {
+    width: calc(64.5% / 2);
+    padding-left: 15px;
+}
+
+input:focus, textarea:focus {
+    background: #F8FB05;
+    border: 2px solid lightblue;
+}
